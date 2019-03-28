@@ -1,5 +1,24 @@
 body{
     margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.hoverAnimation{
+    transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+}
+
+.hoverAnimation:hover{
+    transform: translate(0,-20px);
+}
+
+.hoverAnimationWeak{
+    transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+}
+
+.hoverAnimationWeak:hover{
+    transform: translate(0,-10px);
 }
 
 .topBarImage {
@@ -26,7 +45,7 @@ body{
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 12%;
-    font-size: 20pt;
+    font-size: 18pt;
 }
 
 .appBoxes{
@@ -82,8 +101,6 @@ body{
 }
 
 .projectShowcase{
-    margin-top: 50px;
-    background-color: green;
     text-align: center;
     overflow: visible;
 }
@@ -100,6 +117,7 @@ body{
 
 .showcaseCategory{
     margin-top: 10px;
+    padding-bottom: 30px;
 }
 
 .showcaseDescription{
@@ -108,15 +126,30 @@ body{
     margin: auto;
     padding-left: 5%;
     padding-right: 5%;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+.showcaseButtonLink{
+    color: #0086a3;
+    text-decoration: none;
+    display: block;
 }
 
 .showcaseButton{
-    margin-top: 10%;
-    color: black;
-    text-decoration: none;
-    box-shadow: 5px 10px 18px #888888;
-    background-color: red;
-    padding: 5px;
-    border-radius: 5px;
     margin: auto;
+    /*box-shadow: 5px 10px 18px #000000;*/
+    padding: 12px;
+    border-radius: 3px;
+    font-size: 15pt;
+}
+
+#sectionSwitchyRoads{
+    margin-top: 50px;
+    background-color: #0086a3;
+    color: white;
+}
+
+#buttonSwitchyRoads{
+    background-color: #6CE5FF;
 }
