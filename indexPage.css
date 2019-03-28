@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     font-family: 'Noto Sans', sans-serif;
@@ -131,7 +135,6 @@ body{
 }
 
 .showcaseButtonLink{
-    color: #0086a3;
     text-decoration: none;
     display: block;
 }
@@ -150,6 +153,25 @@ body{
     color: white;
 }
 
+#linkSwitchyRoads{
+    color: #0086a3;
+}
+
 #buttonSwitchyRoads{
     background-color: #6CE5FF;
+}
+
+#sectionMegaJump{
+    background-color: #e40000;
+    color: white;
+}
+
+
+#linkMegaJump{
+    color: #e40000;
+}
+
+
+#buttonMegaJump{
+    background-color: #fe7f7f;
 }
