@@ -65,6 +65,23 @@ body{
     font-size: 18pt;
 }
 
+div svg{
+    fill: black;
+}
+
+#socialMediaContainer{
+    display: block;
+    text-align: center;
+    color: yellow;
+    padding: 1%;
+}
+
+.socialMediaButton{
+    width: 70px;
+    height: 70px;
+    margin: 1%;
+}
+
 .appBoxes{
     max-width: 1350px;
     display: block;
