@@ -208,7 +208,7 @@ body{
 }
 
 #sectionPartyStarter{
-    background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
+    background-image: linear-gradient(to bottom, #cc208e 0%, #9613d2 100%);
     color: white;
 }
 
@@ -217,7 +217,7 @@ body{
 }
 
 #buttonPartyStarter{
-    background-color: #ff7dcf;
+    background-color: #ff68fd;
 }
 
 .windowScreen{
