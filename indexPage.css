@@ -1,3 +1,15 @@
+/*body{
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Noto Sans', sans-serif;
+}*/
+
+@font-face{
+    font-family: 'Noto Sans';
+    src: url("res/NotoSans-Regular.ttf");
+}
+
 body{
     margin: 0;
     font-family: 'Noto Sans', sans-serif;
