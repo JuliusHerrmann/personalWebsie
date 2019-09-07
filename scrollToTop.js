@@ -8,6 +8,6 @@ function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.opacity = 1;
   } else {
-    mybutton.style.opacity = 0;
+    mybutton.style.opacity = 1;
   }
 }
