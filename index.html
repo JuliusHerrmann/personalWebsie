@@ -35,9 +35,10 @@
 </head>
 
 <body>
+        <a href="#test" id="scrollBtn" title="Go to top"><img id="imageScroll" src="images/scrollButton.png"></a>
         <div id="test">
                 <img class="topBarImage" src="images/MinimalWallpaper.jpg">
-                <img class="profilePic" src="images/logoLetter.png">
+                <img class="profilePic" src="images/profilePicture.png">
         </div>
         <div class="textBlock">
             <p1>Hello and welcome to my personal website. In the following you will see some of my work.
@@ -47,8 +48,7 @@
                 web development.
             </p1>
         </div>
-        <!--<img id="background" src="images/FutureRetroRobot.jpg">-->
-
+        
         <div class="appBoxes">
             <a id="appBox" href="#sectionSwitchyRoads">
                 <img class="appIcon" src="images/switchyRoadsLogo.png">
@@ -65,6 +65,11 @@
                 <p class="appTitle">Safe That Fish!</p>
                 <p>Safe That Fish! is my entry for the 42nd ludum dare game jam. This game and all assets was made in just 48 hours.</p>
             </a>
+            <a id="appBox" href="#sectionPartyStarter">
+                <img class="appIcon" src="images/partyStarterIcon.png">
+                <p class="appTitle">Party Starter</p>
+                <p>Party Starter is a fun drinking game for your party where every player can control his decisions on his phone.</p>
+            </a>
         </div>
 
         <div id="sectionSwitchyRoads" class="projectShowcase">
@@ -78,7 +83,7 @@
             <a id="linkSwitchyRoads" class="showcaseButtonLink" href="https://play.google.com/store/apps/details?id=com.JukeGames.SwitchyRoads" target="_blank">
                 <btn id="buttonSwitchyRoads" class="showcaseButton">Download Now</btn>
             </a>
-            <br/><br/><br/><br/>
+            <br/><br/><br/>
         </div>
         <div id="sectionMegaJump" class="projectShowcase">
             <img class="phoneImage" src="images/megaJump.png">
@@ -90,7 +95,7 @@
             <a id="linkMegaJump" class="showcaseButtonLink" href="https://play.google.com/store/apps/details?id=com.JukeGames.MegaJump" target="_blank">
                 <btn id="buttonMegaJump" class="showcaseButton">Download Now</btn>
             </a>
-            <br/><br/><br/><br/>
+            <br/><br/><br/>
         </div>
         <div id="sectionSafeThatFish" class="projectShowcase">
             <img class="windowScreen" src="images/SafeThatFishScreen.png">
@@ -109,5 +114,20 @@
             </a>
             <br/><br/><br/>
         </div>
+        <div id="sectionPartyStarter" class="projectShowcase">
+            <img class="windowScreen" src="images/PartyStarterScreen.png">
+            <h class="showcaseTitle">Party Starter</h>
+            <p class="showcaseCategory">Web App</p>
+            <p class="showcaseDescription">Party Starter is a party drinking game to elevate your party to the next level. Use a laptop or any other large screen like a TV to host
+                a new round by opening the link and clicking "new game". Each player connects to the same Website on his phone, enters the Game ID and chooses a name. Once everyone is
+                connected the host can start the game. Have fun!
+            </p>
+            <a id="linkPartyStarter" class="showcaseButtonLink" href="https://partystartergame.herokuapp.com/" target="_blank">
+                <btn id="buttonPartyStarter" class="showcaseButton">Play Now</btn>
+            </a>
+            <br/><br/><br/>
+        </div>
+
+    <script src="scrollToTop.js"></script>
 </body>
 </html>

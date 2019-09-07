@@ -21,6 +21,22 @@ body{
     transform: translate(0,-10px);
 }
 
+#scrollBtn {
+    opacity: 0;
+    position: fixed; /* Fixed/sticky position */
+    bottom: 15px; /* Place the button at the bottom of the page */
+    right: 20px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    transition: opacity 0.5s;
+  }
+  
+  #imageScroll{
+      height: 7vh;
+  }
+
 .topBarImage {
     position: absolute;
     width: 100%;
@@ -57,7 +73,6 @@ body{
     margin-top: 80px;
     margin-bottom: 80px;
     text-align: center;
-    /*background-color: #31355b;*/
 }
 
 .appIcon{
@@ -80,17 +95,20 @@ body{
     margin: 10px;
     margin-top: 40px;
     padding: 10px;
-    box-shadow: 5px 10px 18px #888888;
+    box-shadow: 4px 8px 15px #888888;
     border-radius: 10px;
-    transition: transform 0.5s;
-    -webkit-transition: transform 0.5s;
     text-decoration: none;
     color: black;
     background-color: white;
+    transition: transform 0.5s,
+                box-shadow 0.5s;
+    -webkit-transition: transform 0.5s,
+                        box-shadow 0.5s;
 }
 
 #appBox:hover{
     transform: translate(0,-20px);
+    box-shadow: 5px 15px 25px #888888;
 }
 
 #background{
@@ -103,7 +121,8 @@ body{
 
 .projectShowcase{
     text-align: center;
-    overflow: visible;
+    overflow: hidden;
+    min-height: 100vh;
 }
 
 .phoneImage{
@@ -170,7 +189,7 @@ body{
 
 
 #buttonMegaJump{
-    background-color: #fe7f7f;
+    background-color: #ffa3a3;
 }
 
 #sectionSafeThatFish{
@@ -186,6 +205,19 @@ body{
 
 #buttonSafeThatFish{
     background-color: lightgreen;
+}
+
+#sectionPartyStarter{
+    background-color: #7716e6;
+    color: white;
+}
+
+#linkPartyStarter{
+    background-color: #7716e6;
+}
+
+#buttonPartyStarter{
+    background-color: #c393fa;
 }
 
 .windowScreen{
