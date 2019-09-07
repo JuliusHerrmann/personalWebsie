@@ -165,7 +165,7 @@ body{
 
 #sectionSwitchyRoads{
     margin-top: 50px;
-    background-color: #0086a3;
+    background-image: linear-gradient(to bottom, #0acffe 0%, #495aff 100%);
     color: white;
 }
 
@@ -178,7 +178,7 @@ body{
 }
 
 #sectionMegaJump{
-    background-color: #e40000;
+    background-image: linear-gradient(to top, #ff4835 0%, #fb3894 100%);
     color: white;
 }
 
@@ -193,7 +193,7 @@ body{
 }
 
 #sectionSafeThatFish{
-    background-color: green;
+    background-image: linear-gradient(to top, #0fd850 0%, #c9f947 100%);
     color: white;
 }
 
@@ -204,20 +204,20 @@ body{
 
 
 #buttonSafeThatFish{
-    background-color: lightgreen;
+    background-color: #a4fba4;
 }
 
 #sectionPartyStarter{
-    background-color: #7716e6;
+    background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
     color: white;
 }
 
 #linkPartyStarter{
-    background-color: #7716e6;
+    color: #881e76;
 }
 
 #buttonPartyStarter{
-    background-color: #c393fa;
+    background-color: #ff7dcf;
 }
 
 .windowScreen{
