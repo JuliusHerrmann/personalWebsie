@@ -30,8 +30,10 @@ body{
 }
 
 .hoverAnimationWeak{
-    transition: transform 0.3s;
-    -webkit-transition: transform 0.3s;
+    transition: transform 0.3s,
+                fill 0.3s;
+    -webkit-transition: transform 0.3s,
+                        fill 0.3s;
 }
 
 .hoverAnimationWeak:hover{
@@ -111,6 +113,10 @@ div svg{
     width: 70px;
     height: 70px;
     margin: 1%;
+}
+
+.socialMediaButton:hover{
+    fill: gray;   
 }
 
 .appBoxes{
