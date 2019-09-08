@@ -82,11 +82,13 @@ body{
 
 .profilePic{
     position: relative;
-    max-width: 320px;;
-    width: 40vw;
     display: block;
     margin: auto;
+    width: 35vw;
+
+    max-width: 320px;
 }
+
 
 .textBlock { 
     text-align: center;

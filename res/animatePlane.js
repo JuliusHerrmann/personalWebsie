@@ -37,7 +37,7 @@ if(!isMobile){
         ]
     }   
     
-    delay = 1000;
+    delay = 1500;
     time = 4;
 }
 
