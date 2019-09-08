@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="indexPage.css">
     <script src="res/jquery.min.js"></script>
-    <script src="res/snap.svg-min.js"></script>
-
     <script>
     $(document).ready(function(){
       // Add smooth scrolling to all links
@@ -38,10 +36,9 @@
 
 <body>
         <a href="#planeContainer" id="scrollBtn" title="Go to top"><img id="imageScroll" src="images/scrollButton.png"></a>
-        <div id="planeContainer">
-            <img id="plane" height="100px" src="images/paper-plane.svg">
+        <div id="planeContainer" xmlns="http://www.w3.org/2000/svg">
+            <img id="plane" src="images/paper-plane.svg">
         </div>
-        <svg id="svg-doc" width="0" height="0" position="absolute"></svg>
         <!--<div id="test">
                 <img class="topBarImage" src="images/MinimalWallpaper.jpg">
                 <img class="profilePic" src="images/profilePicture.png">
@@ -152,6 +149,9 @@
             <br/><br/><br/>
         </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/BezierPlugin.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
     <script src="scrollToTop.js"></script>
     <script src="res/animatePlane.js"></script>
 </body>
