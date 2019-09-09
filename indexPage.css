@@ -53,7 +53,11 @@ body{
 }
 
 #imageScroll{
-    height: 7vh;
+    height: 5vh;
+    width: 5vh;
+    border-radius: 25%;
+    background-color: black;
+    opacity: 0.5;
 }
 
 #planeContainer{
