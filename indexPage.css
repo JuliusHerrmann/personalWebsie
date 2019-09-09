@@ -5,18 +5,14 @@
     font-family: 'Noto Sans', sans-serif;
 }*/
 
-@font-face{
-    font-family: 'Noto Sans';
-    src: url("res/NotoSans-Regular.ttf");
-}
-
 html{
     overflow-x: hidden;
 }
 
 body{
     margin: 0;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     overflow-x: hidden !important;
 }
 
@@ -183,6 +179,7 @@ div svg{
 }
 
 #appBox{
+    font-weight: 500;
     max-width: 400px;
     display: inline-block;
     margin: auto;
@@ -230,11 +227,13 @@ div svg{
 }
 
 .showcaseCategory{
+    font-weight: 500;
     margin-top: 10px;
     padding-bottom: 30px;
 }
 
 .showcaseDescription{
+    font-weight: 500;
     font-size: 13pt;
     max-width: 500px;
     margin: auto;
