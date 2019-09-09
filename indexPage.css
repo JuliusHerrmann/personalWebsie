@@ -93,9 +93,6 @@ body{
     font-family: 'Pacifico', cursive;
     color: black;
     font-size: 60px;
-    /*background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);*/
-    background-clip: text;
-    -webkit-background-clip: text;
     text-align: center;
     line-height: 80px;
     padding-top: 9%;
