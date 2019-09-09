@@ -5,6 +5,18 @@
     font-family: 'Noto Sans', sans-serif;
 }*/
 
+@font-face {
+    font-family: 'Montserrat'; /*a name to be used later*/
+    src: url('res/Montserrat-Regular.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Pacifico'; /*a name to be used later*/
+    src: url('res/Pacifico-Regular.ttf'); /*URL to font*/
+}
+
+
+
 html{
     overflow-x: hidden;
 }
