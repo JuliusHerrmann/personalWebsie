@@ -90,30 +90,29 @@ body{
 }
 
 #name{
-    font-weight: 600;
-    color: transparent;
+    font-family: 'Pacifico', cursive;
+    color: black;
     font-size: 60px;
-    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    /*background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);*/
     background-clip: text;
     -webkit-background-clip: text;
-    text-align:center;
-    line-height:80px;
-    letter-spacing: -3px;
+    text-align: center;
+    line-height: 80px;
     padding-top: 9%;
     padding-bottom: 3%;
 }
 
 #underline{
     margin: 0 auto;
-    margin-left: 19%;
+    margin-left: 21%;
     height: 5px;
     width: 0%;
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-image: linear-gradient(to right, #5ee7df 0%, #0099ff 100%);
     transition: width 0.45s;
 }
 
 #name:hover div {
-    width: 61.5%;
+    width: 58.7%;
 }
 
 .textBlock { 
