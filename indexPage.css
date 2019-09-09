@@ -8,11 +8,13 @@
 @font-face {
     font-family: 'Montserrat'; /*a name to be used later*/
     src: url('res/Montserrat-Regular.ttf'); /*URL to font*/
+    font-display: auto;
 }
 
 @font-face {
     font-family: 'Pacifico'; /*a name to be used later*/
     src: url('res/Pacifico-Regular.ttf'); /*URL to font*/
+    font-display: auto;
 }
 
 
