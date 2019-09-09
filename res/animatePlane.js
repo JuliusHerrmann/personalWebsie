@@ -18,11 +18,11 @@ if(!isMobile){
             {x:600, y:50},
             {x:1200, y:-10},
             {x:1600, y:20},
-            {x: window.innerWidth + 400, y:120},
+            {x: window.innerWidth + 800, y:120},
         ]
     }   
 
-    delay = 1000;
+    delay = 700;
     time = 8;
 }else{
     flightPath = {
@@ -37,7 +37,7 @@ if(!isMobile){
         ]
     }   
     
-    delay = 1500;
+    delay = 1600;
     time = 4;
 }
 
