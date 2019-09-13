@@ -18,6 +18,10 @@
 }
 
 
+*:focus {
+    outline: 0 !important;
+}
+
 
 html{
     overflow-x: hidden;
