@@ -262,7 +262,7 @@ div svg{
     animation-name: fade;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    animation-duration: 9s;
+    animation-duration: 12s;
     animation-delay: 0s;
 }
 #screen3{
@@ -272,21 +272,21 @@ div svg{
     animation-name: fade;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    animation-duration: 9s;
-    animation-delay: 3s;
+    animation-duration: 12s;
+    animation-delay: 4s;
 }
 
 @keyframes fade {
-0% {
+    0% {
     opacity:1;
     }
-    28% {
+    29% {
     opacity:1;
     }
     33% {
     opacity:0;
     }
-    94% {
+    96% {
     opacity:0;
     }
     100% {
