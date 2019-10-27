@@ -238,7 +238,12 @@ div svg{
     z-index: 1000;
 }
 
-#phoneScreen{
+#phoneScreenDiv{
+    height: 520px;
+    margin-top: 50px;
+}
+
+#computerScreenDiv{
     height: 520px;
     margin-top: 50px;
 }
@@ -250,25 +255,21 @@ div svg{
     margin-top: -60px;
 }
 
-#screen1{
-    width: 220px;
+.screen1{
+    margin-left: 0 !important;
     position: relative;
 }
 
-#screen2{
-    width: 220px;
+.screen2{
     position: absolute;
-    margin-left: -220px;
     animation-name: fade;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-duration: 12s;
     animation-delay: 0s;
 }
-#screen3{
-    width: 220px;
+.screen3{
     position: absolute;
-    margin-left: -220px;
     animation-name: fade;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -292,6 +293,25 @@ div svg{
     100% {
     opacity:1;
     }
+}
+
+.phoneScreen{
+    width: 220px;
+    margin-left: -220px;
+}
+
+.computerScreen{
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+#computerWrapper{
+    max-width: 700px;
+    width: 90%;
+    margin: auto;
 }
 
 .showcaseTitle{
