@@ -162,6 +162,10 @@ div svg{
     fill: #1da1f2;   
 }
 
+#instagram:hover{
+    fill: #fd3197; 
+}
+
 #github:hover{
     fill: gray;   
 }
