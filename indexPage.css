@@ -414,3 +414,17 @@ div svg{
     display: block;
     margin: auto;
 }
+
+
+#sectionGameAwardSaar{
+    background-image: linear-gradient(to bottom, #f12711 0%, #f5af19 100%);
+    color: white;
+}
+
+#linkGameAwardSaar{
+    color: #881e76;
+}
+
+#buttonGameAwardSaar{
+    background-color: #ff68fd;
+}
