@@ -420,11 +420,14 @@ div svg{
     background-image: linear-gradient(to bottom, #f12711 0%, #f5af19 100%);
     color: white;
 }
-
+#inlineLinkSwitchyRoads{
+	color: white;
+	/*text-decoration: none; */
+}
 #linkGameAwardSaar{
-    color: #881e76;
+    color: #f49a17;
 }
 
 #buttonGameAwardSaar{
-    background-color: #ff68fd;
+    background-color: #f14812;
 }
