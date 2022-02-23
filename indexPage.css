@@ -411,6 +411,19 @@ div svg{
     background-color: #ff68fd;
 }
 
+#sectionSimulation{
+    background-image: linear-gradient(to bottom, #38414E 0%, #222831 100%);
+    color: white;
+}
+
+#linkSimulation{
+    color: #222831;
+}
+
+#buttonSimulation{
+    background-color: #6A81A3;
+}
+
 .windowScreen{
     max-width: 820px;
     width: 90%;
